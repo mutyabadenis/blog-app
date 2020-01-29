@@ -1,0 +1,50 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+body {
+    font:italic 1em verdana;
+    background-color: blanchedalmond;
+}
+#myheading{
+    font-variant: small-caps;
+    text-align: center;
+    margin-top: 30px;
+}
+.flex-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 115px;
+}
+#blog_form{
+    background-color: blueviolet;
+    border: 1px solid yellow;
+    width: 400px;
+    height: 200px;
+}
+#blog_form div{
+    text-align: center;
+    margin-top: 50px;
+}
+#blog_btn{
+    background-color: red;
+    color:white;
+margin:5px;
+padding: 4px;
+}
+#copy {
+    
+}
+#blog_user {
+    line-height: 25px;
+    background-color: burlywood;
+margin-top: 15px;
+border: 1px dotted purple;
+}
+
+
+
+
+
+

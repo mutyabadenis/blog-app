@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <link rel="stylesheet" href="main.css" />
+</head>
+
+<body>
+  <!--head
+    area for errors
+  input title
+textarea
+button
+postarea
+-->
+
+  <h1 id="myheading">the denis blog app</h1>
+
+  <div id="copy">
+    <h4 class="blog_inp_copy"></h4>
+    <p class="txtarea_copy"></p>
+  </div>
+
+  <div class="flex-container">
+    <form id="blog_form" method="POST">
+      <div>
+        <input type="text" id="blog_input" placeholder="enter title"
+          style="width: 200px; height: 20px; margin-bottom: 25px;"><br>
+
+        <textarea id="blog_textarea" style="width: 200px; height: 40px;"></textarea><br>
+        <button id="blog_btn">POST</button>
+      </div>
+    </form>
+    <div id="btns">
+<button id="del">delete</button>
+<button id="edit">edit</button>
+<button id="update">update</button>
+    </div>
+  </div>
+  <ul id="blog_user" style ="text-align: center;">
+    <!--<li>list_item1</li>
+<li>list_item2</li>
+<li>list_item3</li>-->
+  </ul>
+
+  <script src="main.js"></script>
+</body>
+
+</html>
