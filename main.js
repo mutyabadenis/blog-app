@@ -2,7 +2,7 @@ const blog_para = document.querySelector('#demo');
 const blog_form = document.querySelector('#blog_form');
 const blog_input = document.querySelector('#blog_input');
 const blog_button = document.querySelector('#blog_btn');
-const blog_user = document.querySelector('#blog_user');
+const blog_userlist = document.querySelector('#blog_user');
 const blog_txtarea = document.querySelector('#blog_textarea');
 const blog_copy = document.querySelector('#copy');
 const blog_delete = document.querySelector('#del');
@@ -41,10 +41,9 @@ uList.innerHTML = `result into_${ourPost.blog_input}:${ourPost.blog_txtarea}`;
 blog_input.value = "";
 blog_txtarea.value = ""
 });
-// blog_delete.addEventListener('click', function(e){
-// blog_delete = `result into_${ourPost.blog_input}:${ourPost.blog_txtarea}`.splice(1,3);
 
-//const ar =[1, "hhh", true, "hhhhhhhh"]
+// let tab= [];
+// let liIndex;
 
 
 
